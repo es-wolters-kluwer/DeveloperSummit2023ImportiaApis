@@ -9,13 +9,13 @@ With this hands on lab you will discover how to create a Migration Set with the 
 
 To get started with this hands on lab you will need the following requirements.
 
-1.	Microsoft Visual Studio 2022 Community Edition
+1.	<a href="https://visualstudio.microsoft.com/es/vs/community/">Microsoft Visual Studio 2022 Community Edition</a>
 
     * ASP.NET and Web Development toolkit installed
 
-3.	Wolters Kluwer Outh Client
-2.	Wolters Kluwer Developer account 
-4.	Wolters Kluwer a3innuva subscription key
+2.	<a href="https://a3innuva.wolterskluwer.es/">Wolters Kluwer a3innuva</a>
+3.	<a href="https://a3developers.wolterskluwer.es/">Wolters Kluwer Developer account</a>
+4.	<a href="https://a3developers.wolterskluwer.es/a3innuva-contabilidad-start">Wolters Kluwer Outh Client</a>
 
 # What will be built on the hands on lab
 
