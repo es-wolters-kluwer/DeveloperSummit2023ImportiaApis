@@ -1,4 +1,4 @@
-﻿namespace WKa3InnuvaGetTokenSample
+﻿namespace WkeHandsOnImportia
 {
     public static class WKConstants
     {

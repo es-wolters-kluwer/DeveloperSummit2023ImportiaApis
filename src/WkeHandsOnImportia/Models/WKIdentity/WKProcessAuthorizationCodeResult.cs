@@ -1,7 +1,7 @@
 ﻿using IdentityModel.Client;
 using System.Security.Claims;
 
-namespace WKa3InnuvaGetTokenSample.Models.WKIdentity
+namespace WkeHandsOnImportia.Models.WKIdentity
 {
     public class WKProcessAuthorizationCodeResult
     {

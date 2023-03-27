@@ -1,4 +1,4 @@
-global using WKa3InnuvaGetTokenSample;
+global using WkeHandsOnImportia;
 using IdentityModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;

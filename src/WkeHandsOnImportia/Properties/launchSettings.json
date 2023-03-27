@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:53971",
-      "sslPort": 43971
+      "applicationUrl": "http://localhost:43950",
+      "sslPort": 43900
     }
   },
   "profiles": {
-    "WKa3InnuvaGetTokenSample": {
+    "WkeHandsOnImportia": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:53971;https://localhost:43971",
+      "applicationUrl": "http://localhost:43950;https://localhost:43900",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

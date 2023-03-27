@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Http.Extensions;
 using System.Security.Claims;
-using WKa3InnuvaGetTokenSample.Models.WKIdentity;
+using WkeHandsOnImportia.Models.WKIdentity;
 
-namespace WKa3InnuvaGetTokenSample
+namespace WkeHandsOnImportia
 {
     public class WKAuthorizationTools
     {

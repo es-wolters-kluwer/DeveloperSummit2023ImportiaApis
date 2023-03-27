@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
 
-namespace WKa3InnuvaGetTokenSample.Pages
+namespace WkeHandsOnImportia.Pages
 {    
     public class IndexModel : PageModel
     {

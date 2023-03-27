@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WKa3InnuvaGetTokenSample.Pages
+namespace WkeHandsOnImportia.Pages
 {
     public class PrivacyModel : PageModel
     {

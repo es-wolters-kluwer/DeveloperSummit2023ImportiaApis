@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Globalization;
 using System.Security.Claims;
 
-namespace WKa3InnuvaGetTokenSample.Pages
+namespace WkeHandsOnImportia.Pages
 {
     [Authorize]
     public class GetAccessTokenModel : PageModel
