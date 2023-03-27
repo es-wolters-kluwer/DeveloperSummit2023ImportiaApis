@@ -11,7 +11,9 @@ using System.Security.Claims;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services
+    .AddRazorPages()
+    .AddRazorRuntimeCompilation();
 
 // Get OAuth configuration from appsettings.json
 var woltersKluwerIdentityConfiguration = builder.Configuration.GetSection("WkeOAuthClientConfiguration").Get<WKOAuthClientConfigurationModel>();
