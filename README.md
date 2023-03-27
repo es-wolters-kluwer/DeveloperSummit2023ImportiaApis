@@ -1,19 +1,28 @@
-# ¡Bienvenido a3developer!
-En esta aplicación ASP.NET Core de ejemplo te mostramos cómo funciona la autenticación OAuth 2.0 con OpenIdConnect.
+# Introduction 
 
-# Requisitos 
+Have ever wonder how to integrate you system with a3innuva and send the invoices to be posted.
 
-Es imprescindible disponer de un client OAuth (puedes solicitarlo [aquí](https://forms.office.com/r/0jdxS8vyWN) y una Wolters Kluwer Account que tenga acceso a a3innuva. Si necesitás más información, puedes visitar nuestro [developer portal](https://a3developers.wolterskluwer.es/)
+With this hands on lab you will discover how to create a Migration Set with the a3innuva importia SDK, upload it to a3innuva manually and the send it directly from you application to a3innuva using the a3innuva | importia API.
 
-# Cómo probar la aplicación
 
-Antes de poder probar la aplicación, edita el fichero ``appsettings.json para ajustarlo a tu configuración:
-- ``ClientId``: especifica el nombre del client OAuth que te hemos asignado (p.e. WK.ES.A3WebApi.12345)
-- ``ClientSecret``: secret del client OAuht (p.e. dyd4dktgzdFnfPIm)
-- ``AuthenticationScopes``: los scopes varían en función de la aplicación a3innuva a la que quieres conectar:
-	a3innuva | nómina: offline_access+openid+IDInfo+WK.ES.A3EquipoContex
-	a3innuva | contabilidad: offline_access+openid+WK.ES.NEWPOL.COR.API+WK.ES.NEWPOL.ACC.API+WK.ES.NEWPOL.MNG.API+WK.ES.Webhooks
+# Getting Started
 
-Una vez editado el fichero, ejecuta la aplicación y correrá por defecto en https://localhost:43971/ 
+To get started with this hands on lab you will need the following requirements.
 
-Es importante que no modifiques el puerto, ya que los client OAuth que proporcionamos desde WK admiten como redirect_uri https://localhost:43971/ por lo que si cambias el puerto o el path de callback, el servidor de autenticación de WKA te dará un mensaje de error.
+1.	Microsoft Visual Studio 2022 Community Edition
+
+    * ASP.NET and Web Development toolkit installed
+
+3.	Wolters Kluwer Outh Client
+2.	Wolters Kluwer Developer account 
+4.	Wolters Kluwer a3innuva subscription key
+
+# What will be built on the hands on lab
+
+This hands on lab start from a project already configured to perform the authentication on the Wolters Kluwer Identity Platform.
+
+* You will start by [updating the application credentials](doc/update_application_credentials.md) to allow the application start an authentication flow in the Wolters Kluwer Identity platform
+
+* [Generate an importia migration set](doc/generate_a3innuva_migration_set.md), download it and upload it to a3innuva manually
+
+* [Upload the importia migration set](doc/upload_a3innuva_migration_set.md) generated to a3innuva using the a3innuva | importia API.
