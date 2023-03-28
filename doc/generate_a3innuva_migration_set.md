@@ -27,7 +27,7 @@ This class is responsable of creating the importia migration set
                 {
                     Info = new MigrationInfo()
                     {
-                        VatNumber = "A72061187",
+                        VatNumber = "B02731792",
                         Year = 2023,
                         Type = MigrationType.OutputInvoice,
                         Origin = MigrationOrigin.Extern,

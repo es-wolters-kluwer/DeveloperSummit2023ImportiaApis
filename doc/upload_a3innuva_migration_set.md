@@ -97,9 +97,9 @@ For this sample, a pre-configured company will be used.
 
 ```
 
-    var companyCorrelationId = $"1a73b3c0-89c5-4385-9df7-6c3fdc6f9bd7";
-    var activityCorrelationId = $"96bee4a4-1a17-43d6-9a47-91f000f3419b";
-    var channelCorrelationId = $"3428a766-8132-48f2-a535-9f9c78e04951";
+    var companyCorrelationId = $"27200f28-b59c-4f63-aa89-7fabcf16f96f";
+    var activityCorrelationId = $"62fd87e8-4050-4bf3-bab1-8c02f1e9f716";
+    var channelCorrelationId = $"819cc23f-d62b-4336-b98c-37fce9fbcd75";
 
 ``` 
 

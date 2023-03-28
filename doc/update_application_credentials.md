@@ -22,16 +22,10 @@ Before start the hands on lab, we need to update the application credentials. Wi
 ## Start the application and click on "Get Access Token" button. You will need the following user and password 
 
     Usuario:
-    developersummit2023@mailinator.com
+    wkedevelopersummit2023@mailinator.com
     
     Contraseña
-    WkeDevSummit.Pa$$w0rd
+    Pa$$w0rd.2023
 
 ## Open a new tab and navigate to <a href="https://a3innuva.wolterskluwer.es/">a3innuva</a>
 
-
-### NOTE: For this hands on lab you will be working the a pre-created company with the following information. 
-
-    companyCorrelationId = $"1a73b3c0-89c5-4385-9df7-6c3fdc6f9bd7";
-    activityCorrelationId = $"96bee4a4-1a17-43d6-9a47-91f000f3419b";
-    channelCorrelationId = $"3428a766-8132-48f2-a535-9f9c78e04951";
