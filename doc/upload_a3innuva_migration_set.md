@@ -31,7 +31,7 @@
     [BindProperty]
     public IFormFile IntegrationFile { get; set; }
 
-    public async Task OnPostAsync()
+    public async Task OnPostUploadFile()
     {
 
         using (var stream = new MemoryStream())
