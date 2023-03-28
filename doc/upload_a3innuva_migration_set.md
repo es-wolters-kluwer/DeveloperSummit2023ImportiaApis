@@ -1,13 +1,5 @@
 # Upload the generated Importia Migration Set to a3innuva
 
-For this sample, a pre-configured company will be used. 
-
-    var companyCorrelationId = $"1a73b3c0-89c5-4385-9df7-6c3fdc6f9bd7";
-    var activityCorrelationId = $"96bee4a4-1a17-43d6-9a47-91f000f3419b";
-    var channelCorrelationId = $"3428a766-8132-48f2-a535-9f9c78e04951";
-
-You can get this information using the a3innuva | contabilidad APIs
-
 ## Update the page /Importia/Index.cshtml and add a form to upload a file.
 
 ```
@@ -98,5 +90,19 @@ You can get this information using the a3innuva | contabilidad APIs
     }
 
 ```
+
+### IMPORTANT: 
+
+For this sample, a pre-configured company will be used. 
+
+```
+
+    var companyCorrelationId = $"1a73b3c0-89c5-4385-9df7-6c3fdc6f9bd7";
+    var activityCorrelationId = $"96bee4a4-1a17-43d6-9a47-91f000f3419b";
+    var channelCorrelationId = $"3428a766-8132-48f2-a535-9f9c78e04951";
+
+``` 
+
+You can get this information using the a3innuva | contabilidad APIs
 
 ## Try the application and upload a file to a3innuva directly from out application.

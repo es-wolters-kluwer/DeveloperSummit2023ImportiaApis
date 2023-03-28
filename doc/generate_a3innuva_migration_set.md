@@ -209,6 +209,8 @@ this class is responsable of zip a migration set
 
 ## Add an Index razor page 
 	
+ ![img](images/2.4.-%20Add%20the%20importia%20razor%20page.PNG)
+
 ## Inside de Index.cshtml, let's add the html form code to send the request to generate an importia migration set
 	
 ```
