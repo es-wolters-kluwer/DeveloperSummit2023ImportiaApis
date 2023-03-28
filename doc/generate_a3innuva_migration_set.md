@@ -55,28 +55,28 @@ This class is responsable of creating the importia migration set
                         TransactionDate = DateTime.Now,
                         InvoiceNumber = $"SAC_{index.ToString("000")}",
                         Lines = new IOutputInvoiceLine[]
+                        {
+                            new OutputInvoiceLine()
                             {
-                                    new OutputInvoiceLine()
-                                    {
-                                        Id = Guid.NewGuid(),
-                                        Line = 1,
-                                        Index = 0,
-                                        BaseAmount = 1000,
-                                        CounterPart = "7050000000",
-                                        CounterPartDescription = "PRESTACIONES DE SERVICIOS",
-                                        TaxAmount = 210,
-                                        TaxSurchargeAmount = 0,
-                                        TaxDeductibleAmount = 0,
-                                        TaxNonDeductibleAmount = 0,
-                                        TaxDeductibleSurchargeAmount = 0,
-                                        TaxNonDeductibleSurchargeAmount = 0,
-                                        WithHoldingPercentage = 0,
-                                        WithHoldingAmount = 0,
-                                        Transaction = "OP_INT",
-                                        WithHolding = null,
-                                        TaxCode = ""
-                                    }
-                            },
+                                Id = Guid.NewGuid(),
+                                Line = 1,
+                                Index = 0,
+                                BaseAmount = 1000,
+                                CounterPart = "7050000000",
+                                CounterPartDescription = "PRESTACIONES DE SERVICIOS",
+                                TaxAmount = 210,
+                                TaxSurchargeAmount = 0,
+                                TaxDeductibleAmount = 0,
+                                TaxNonDeductibleAmount = 0,
+                                TaxDeductibleSurchargeAmount = 0,
+                                TaxNonDeductibleSurchargeAmount = 0,
+                                WithHoldingPercentage = 0,
+                                WithHoldingAmount = 0,
+                                Transaction = "OP_INT",
+                                WithHolding = null,
+                                TaxCode = ""
+                            }
+                        },
                         PartnerName = "Ferretería amigos, s.l.",
                         VatNumber = "46776910Q",
                         PartnerAccount = "4300000001",
