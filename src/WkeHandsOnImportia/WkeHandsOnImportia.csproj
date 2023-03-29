@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="a3innuva.Importia.SDK.Extensions" Version="2.27.0" />
+    <PackageReference Include="a3innuva.Importia.SDK.Implementations" Version="2.27.0" />
+    <PackageReference Include="a3innuva.Importia.SDK.Interfaces" Version="2.27.0" />
+    <PackageReference Include="a3innuva.Importia.SDK.Serialization" Version="2.27.0" />
     <PackageReference Include="IdentityModel" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.14" />
@@ -14,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Importia\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\" />
   </ItemGroup>
 
