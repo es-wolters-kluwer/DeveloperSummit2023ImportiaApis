@@ -1,0 +1,22 @@
+﻿@page
+@model WkeHandsOnImportia.Pages.Importia.IndexModel
+@{
+}
+
+<div class="row">
+    <div class="col-6">
+        <form asp-page-handler="GenerateIntegrationFile" method="post">
+            <button type="submit" class="btn btn-primary btn-lg">
+                Generate integration file
+            </button>
+        </form>
+    </div>
+    <div class="col-6">
+        <form asp-page-handler="UploadFile" method="post" enctype="multipart/form-data">
+            <input type="file" asp-for="IntegrationFile" />
+            <button type="submit" class="btn btn-primary btn-lg">
+                Upload integration file
+            </button>
+        </form>
+    </div>
+</div>

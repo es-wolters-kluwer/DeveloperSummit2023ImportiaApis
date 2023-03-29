@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Importia\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\" />
   </ItemGroup>
 
